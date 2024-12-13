@@ -8,6 +8,7 @@ import { NavbarComponents } from '@/components/elements/Navbar/NavbarComponents'
 
 export default function Home() {
   return (
+    
     <main>
       <NavbarComponents />
       <HeroSection />
