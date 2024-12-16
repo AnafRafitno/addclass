@@ -1,11 +1,22 @@
 export default function AboutSection() {
   return (
-    <section className="mt-16 md:mt-0 container text-center w-full flex flex-col space-y-10 justify-center items-center" id="about">
-      <h2 className="uppercase font-medium text-[var(--primary-color)] text-5xl">About</h2>
-      <p className="text-xl uppercase font-medium md:max-w-2xl">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, tempora eligendi aliquid odit accusamus ullam dolorem fuga velit doloremque porro neque eos a, quibusdam at veniam itaque laboriosam accusantium nobis autem nam
-        possimus sunt? Consequuntur obcaecati rerum beatae nobis debitis ut distinctio sequi animi, corrupti nisi
-      </p>
-    </section>
+  <section>
+    <div className="flex items-end gap-4">
+  <img
+    src="/gambar/ithaci.jpg"
+    alt=""
+    className="size-20 rounded-lg object-cover"
+  />
+
+  <div>
+    <h3 className="text-lg/tight font-medium text-gray-900">About</h3>
+
+    <p className="mt-0.5 text-gray-700">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptas distinctio
+      nesciunt quas non animi.
+    </p>
+  </div>
+</div>
+  </section>
   );
 }

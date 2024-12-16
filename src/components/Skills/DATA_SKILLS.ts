@@ -29,4 +29,11 @@ export const DATA_SKILLS: ISkills[] = [
     img: '/tech/tailwind.png',
     link: '/',
   },
+  {
+    title: 'Hypertext Preprocessor',
+    tag: 'Frontend',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo rerum architecto velit quo ex beatae cumque quibusdam totam dolores laudantium voluptatem, doloremque nobis sapiente labore aperiam nulla blanditiis quod dolore',
+    img: '/tech/php.png',
+    link: '/',
+  },
 ];
