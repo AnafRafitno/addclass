@@ -24,9 +24,5 @@ export const DATA_NAV: IDataNav[] = [
     name: 'Contact',
     path: '/#contact',
   },
-  {
-    name: 'Hobi',
-    path: '/#hobi',
-  },
-  
+   
 ];

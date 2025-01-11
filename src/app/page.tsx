@@ -5,7 +5,6 @@ import HeroSection from '@/components/HeroSection';
 import ProjectSection from '@/components/ProjectSection/ProjectSection';
 import SkilsSection from '@/components/Skills/SkilsSection';
 import { NavbarComponents } from '@/components/elements/Navbar/NavbarComponents';
-import Hobi from '@/components/Hobi';
 export default function Home() {
   return (
     
@@ -18,7 +17,6 @@ export default function Home() {
         <SkilsSection />
         <ContactSection />
         <Footer />
-        <Hobi />
       </div>
     </main>
   );
